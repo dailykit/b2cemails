@@ -40,6 +40,7 @@ a{
 }
 
 .footer{
+   width: auto;
    padding: 60px;
    color: #ececec;
    background-color: #10192f;
@@ -49,10 +50,7 @@ a{
   font-family: Arial;
   font-size: 20px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.4;
-  letter-spacing: normal;
   text-align: left;
   color: #4f5a68;
 }
@@ -60,11 +58,7 @@ a{
 .footer-para{
    font-family: Arial;
   font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
   line-height: 1.5;
-  letter-spacing: normal;
   color: #ffffff;
 }
 
@@ -109,6 +103,44 @@ a{
     color: #d8355c;
  }
 
+ .content{
+    margin: auto;
+   text-align: center;
+ }
+
+ .square-card{
+   border-radius: 8px;
+   width: fit-content;
+   padding: 20px;
+   display: block;
+   height: fit-content;
+   margin: auto;
+   box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.31);
+   background-color: #ffffff;
+ }
+
+.card-month{
+   font-family: Arial;
+  font-size: 28px;
+  line-height: 0.86;
+  text-align: center;
+  color: #10192f;
+}
+
+ .card-day{
+   font-family: Arial;
+  font-size: 120px;
+  font-weight: bold;
+  line-height: 1.15;
+  text-align: center;
+  color: #10192f;
+ }
+
+ hr{
+   height: 1px;
+   opacity: 0.1;
+   background-color: #ffffff;
+ }
 
 @media screen and (max-width:800px) {
    .main{
@@ -150,13 +182,8 @@ a{
       width: 80%;
    }
    .main-para{
-      font-size: 16px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  text-align: left;
-  color: #4f5a68;
+      line-height: 1.5;
+      text-align: left;
+      color: #4f5a68;
    }
  }
