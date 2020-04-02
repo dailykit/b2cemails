@@ -33,8 +33,9 @@ a{
 }
 
 .small-card{
-   padding: 20px;
+   padding: 0px;
    width: 40%;
+   margin-left: auto;
    border: solid 1px #ececec;
 }
 
@@ -44,7 +45,7 @@ a{
    background-color: #10192f;
 }
 
-.para{
+.para,.main-para{
   font-family: Arial;
   font-size: 20px;
   font-weight: bold;
@@ -67,6 +68,11 @@ a{
   color: #ffffff;
 }
 
+.image-title{
+   display: flex; 
+   padding: 20px;
+}
+
 .payment-card{
    padding: 30px 0px 0px 0px;
 }
@@ -83,6 +89,24 @@ a{
  
  .btn:hover, .btn:active {
    background-color: red;
+ }
+
+ .title1{
+    padding: 10px;
+    color: #ffffff;
+    width: fit-content;
+    background-color: #ff7a4d;
+ }
+
+ .title2{
+   padding: 10px;
+   color: #ffffff;
+   width: fit-content;
+   background-color: #44496b;
+ }
+
+ .hash-tag{
+    color: #d8355c;
  }
 
 
@@ -102,5 +126,37 @@ a{
    }
    .footer{
       padding: 20px;
+   }
+   .para{
+      font-size: 16px;
+      font-weight: normal;
+      line-height: 1.5;
+   }
+   .footer-para{
+     font-size: 14px;
+     line-height: 1.43;
+     text-align: left;
+   }
+   .container{
+      display: block;
+      margin: 0 auto;
+   }
+   .left,.right{
+      margin: 0 auto;
+   }
+   .small-card{
+      margin-left: 0px;
+      margin-bottom: 20px;
+      width: 80%;
+   }
+   .main-para{
+      font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #4f5a68;
    }
  }
