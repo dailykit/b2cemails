@@ -103,6 +103,13 @@ a{
     color: #d8355c;
  }
 
+ .Intersection-11{
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+ }
+
  .content{
     margin: auto;
    text-align: center;
