@@ -7,13 +7,27 @@
    <meta name="description" content="">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="stylesheet" href="style.css">
-   <!-- <style>
+   <style>
+      .right-side {
+         transform: translate(0px, -30px);
+      }
+
       @media screen and (max-width:800px) {
-         .btn:link{
-            
+         .right-side {
+            width: fit-content;
+            margin: auto;
+            transform: translate(0px, -90px);
+         }
+
+         .left-side {
+            transform: translate(0px, 200px);
+         }
+
+         p {
+            text-align: center;
          }
       }
-   </style> -->
+   </style>
 </head>
 
 <body>
@@ -49,14 +63,13 @@
          <br>
          <h2>What to do next?</h2>
          <div class="container">
-            <div>
+            <div class="left-side">
                <p>
                   Choose from some of the best Lunch & Dinner Meal Kits from our platform at a fixed price of $70. These
                   are 4 serving
                   Meal Kits of Lunch & Dinner which will be shipped to your registered address.</p>
-
             </div>
-            <div style="margin-top: -60px;">
+            <div class="right-side">
                <img src="./img/Group 175.jpg" alt="laptop image">
             </div>
          </div>

@@ -51,13 +51,14 @@ a{
   font-size: 20px;
   font-weight: bold;
   line-height: 1.4;
-  text-align: left;
   color: #4f5a68;
+  text-align: justify;
 }
 
 .footer-para{
    font-family: Arial;
   font-size: 16px;
+  text-align: justify;
   line-height: 1.5;
   color: #ffffff;
 }
@@ -154,8 +155,16 @@ a{
       margin: 20px;
    }
    .left, .right {
-     margin-top: auto;
      font-size: 14px;
+   }
+   .right{
+      width: fit-content;
+      transform: translate(0px,-70px);
+   }
+   .left{
+      width: fit-content;
+      margin: auto;
+      transform: translate(0px,40px);
    }
    .card{
       width: 90%;
@@ -178,9 +187,6 @@ a{
    }
    .container{
       display: block;
-      margin: 0 auto;
-   }
-   .left,.right{
       margin: 0 auto;
    }
    .small-card{
