@@ -9,7 +9,7 @@ body{
    margin: 59px;
 }
 
-a{
+.anchor{
    color:#d8355c ;
 }
 
@@ -35,7 +35,7 @@ a{
 .small-card{
    padding: 0px;
    width: 40%;
-   margin-left: auto;
+   margin-right: auto;
    border: solid 1px #ececec;
 }
 
@@ -56,7 +56,7 @@ a{
 }
 
 .footer-para{
-   font-family: Arial;
+  font-family: Arial;
   font-size: 16px;
   text-align: justify;
   line-height: 1.5;
@@ -73,7 +73,7 @@ a{
 }
 
 .btn:link, .btn:visited {
-   margin-left: 40%;
+   margin-left: auto;
    background-color: #f44336;
    color: white;
    padding: 14px 25px;
@@ -82,9 +82,9 @@ a{
    display: inline-block;
  }
  
- .btn:hover, .btn:active {
+ /* .btn:hover, .btn:active {
    background-color: red;
- }
+ } */
 
  .title1{
     padding: 10px;
@@ -150,6 +150,9 @@ a{
    background-color: #ffffff;
  }
 
+ .contact{
+   color: #ffff;
+ }
 @media screen and (max-width:800px) {
    .main{
       margin: 20px;
@@ -170,7 +173,8 @@ a{
       width: 90%;
    }
    .btn:link, .btn:visited{
-      margin-left: 30%;
+      margin-left: 2vw;
+      width: 80%;
    }
    .footer{
       padding: 20px;
@@ -184,6 +188,7 @@ a{
      font-size: 14px;
      line-height: 1.43;
      text-align: left;
+     font-weight: normal;
    }
    .container{
       display: block;
